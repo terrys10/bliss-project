@@ -12,12 +12,9 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-#welcome{
+.welcome{
 	/*image*/
-	background-img: linear-gradient(
-		rgba(0,0,0,0.55),
-		rgba(0,0,0,0.55)),
-	url(https://terrys10.github.io/bliss-project/IMG_3364.JPG) ;
+	background-img: url(https://terrys10.github.io/bliss-project/IMG_3364.JPG) ;
 	background-size: cover;
 	background-position: center top;
 	background-attachment: fixed;
