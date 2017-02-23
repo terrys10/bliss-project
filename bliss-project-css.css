@@ -1,0 +1,131 @@
+body{
+
+}
+.container{
+	border: 2px solid red;
+}
+.welcome{
+	/*image*/
+	background: linear-gradient(
+		rgba(0,0,0,0.55),
+		rgba(0,0,0,0.55)), 
+	url(C:/Users/terry/Desktop/BlissLogo/photos/IMG_3364.JPG) ;
+	background-size: cover; 
+	/*background-position: center top;*/
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*text*/
+	color: white;
+	padding: 25% 0;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+
+
+.about{
+	padding: 1%;
+}
+
+
+.about .col-md-12{
+	text-align: center;
+	margin-top: 5%;
+	padding-bottom: 2%
+
+} /* titlos about center */
+
+
+
+
+
+
+@media (min-width: 768px)
+{
+	.about .col-md-7, .whyfaliraki .col-md-7{
+	border: 3px solid blue;
+	padding-top: 3%;
+	margin-bottom: 2%;
+	}
+
+	
+}
+
+@media (max-width: 767px)
+{
+	.about .col-md-5, .whyfaliraki .col-md-5{
+		margin-top: 3%;
+		max-width: 90%;
+		margin: auto;	
+		border: 3px dashed orange;
+	}
+}
+
+
+.whyfaliraki .col-md-12{
+	text-align: center;
+}
+
+
+
+/*.about .col-md-7{
+	border: 3px solid orange;
+	padding-top: 3%;
+*//*	margin-bottom: 2%;
+
+
+}*/
+
+
+
+
+/*body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron{
+	background-image: url(C:/Users/terry/Desktop/BlissLogo/photos/IMG_3364.JPG);
+	background-position: center;
+	background-size: cover; 
+	height: 800px;
+}*/
+
+/*.navbar-inverse{
+	background-color: rgba(0,0,0,0.5);
+	border: 0px;
+	max-width: 100%;
+}
+
+
+
+@media (max-width: 992px) 
+{
+    .navbar-inverse
+    {
+       background-color: rgba(0,0,0,1);
+	border: 5px; 
+    }
+}*/
+
+
+/*@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}*/
+
+/*h1{
+	font-size: 2em;
+}*/
+
