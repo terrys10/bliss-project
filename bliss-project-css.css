@@ -14,7 +14,7 @@ hr {
 
 .welcome{
 	/*image*/
-	background-img: url(https://terrys10.github.io/bliss-project/IMG_3364.JPG) ;
+	background: url(https://terrys10.github.io/bliss-project/IMG_3364.JPG) ;
 	background-size: cover;
 	background-position: center top;
 	background-attachment: fixed;
