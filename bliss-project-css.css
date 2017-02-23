@@ -14,7 +14,7 @@ hr {
 
 .welcome{
 	/*image*/
-	background: linear-gradient(
+	background-img: linear-gradient(
 		rgba(0,0,0,0.55),
 		rgba(0,0,0,0.55)),
 	url(https://terrys10.github.io/bliss-project/IMG_3364.JPG) ;
