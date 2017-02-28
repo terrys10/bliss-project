@@ -119,9 +119,14 @@ hr {
 
 
 	/*Carousel Tabs Mobile*/
-	.nav-pills .nav-justified > li {
+	.test1 > li {
   	  display: table-cell; 
   	  width: 1%;
+	}
+	
+	.test1 > li > a {
+		max-height: 30;
+		padding-top: 3px;
 	}
 
 	#myCarousel{
@@ -159,10 +164,10 @@ hr {
 	z-index: 2;
 }
 
-.nav-justified > li {
+/* .nav-justified > li {
     display: table-cell; 
     width: 1%
-}
+} */
 
 
 /*Tabs Borders*/
