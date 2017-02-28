@@ -1,9 +1,45 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+
+
+}
+
 body{
 	background-color: rgb(248,248,248);
 }
+
+/*fonts code*/
+h1,h3{
+	font-family: 'Lobster', cursive;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h3{
+	font-size: 2em
+}
+p{
+	letter-spacing: 0.04em;
+}
+
+.nav-pills{
+	font-weight: 700;
+}
+
+/*Finish Font code*/
+
+
 /*.container{
 	border: 2px solid red;
 }*/
+
+
+
 
 /* hr style*/
 hr {
@@ -31,6 +67,9 @@ hr {
                  0px 18px 23px rgba(0,0,0,0.1);
 	/*margin*/
 	margin-bottom: 4%;
+
+	/*Fonts*/
+	font-size: 1.5em;
 }
 
 
@@ -50,6 +89,14 @@ hr {
 	padding-top: 3%;
 	}
 
+	.item{
+	margin-top: -20%;
+}
+
+	#myCarousel{
+	margin-top: 3%;
+	height: 75%
+}
 
 }
 
@@ -77,22 +124,20 @@ hr {
   	  width: 1%;
 	}
 
-
+	#myCarousel{
+		margin-top: 3%
+		height: 100%
+	}
 } 
 /*Media Finish*/
 
 
-
-/*carousel start*/
-
-
-#myCarousel{
-	margin-top: 3%
-}
+/*carousel css*/
 
 #myCarousel .nav a {
     display: block;
 }
+
 .nav-justified > li > a {
 	background: rgb(230,230,230);
     border-radius: 0px;
@@ -100,6 +145,12 @@ hr {
 .nav-pills>li[data-slide-to="0"].active a { background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0)); }
 .nav-pills>li[data-slide-to="1"].active a { background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0)); }
 .nav-pills>li[data-slide-to="2"].active a { background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0)); }
+
+
+.carousel-inner {
+	max-height: 100%;
+}
+
 
 /*Carousel MyCode*/
 
@@ -129,7 +180,29 @@ a.lastTab{
 	border-right: 0;
 }
 
+
+/*.item{
+	margin-top: -20%;
+}
+*/
+
 /*carousel finish*/
+
+
+
+.carousel-caption{
+	margin-top:-100px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*#myCarousel .nav a 
