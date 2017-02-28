@@ -125,7 +125,7 @@ hr {
 	}
 	
 	.test1 > li > a {
-		max-height: 30;
+		max-height: 27px;
 		padding-top: 3px;
 	}
 
