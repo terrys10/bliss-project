@@ -8,7 +8,7 @@ body, html {
 }
 
 body{
-	background-color: rgb(248,248,248);
+	background-color: rgb(255,255,255);
 }
 
 /*fonts code*/
@@ -34,6 +34,16 @@ p{
 /*Finish Font code*/
 
 
+#headnav{
+	background-color: rgb(31,32,29);
+	border-color: rgb(0,0,0);
+	
+}
+
+#headnav a{
+	color: rgb(250,250,250);
+}
+
 /*.container{
 	border: 2px solid red;
 }*/
@@ -48,12 +58,13 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+/*welcome code*/
 .welcome{
 	/*image*/
 	background: linear-gradient(
 		rgba(0,0,0,0.55),
 		rgba(0,0,0,0.55)),
-	url(https://terrys10.github.io/bliss-project/IMG_3364.JPG) ;
+	url(IMG_3364.JPG) ;
 	background-size: cover;
 	background-position: center top;
 	background-attachment: fixed;
@@ -81,7 +92,7 @@ hr {
 
 
 
-
+/*Media Start*/
 @media (min-width: 768px)
 {
 	.perigrafi{
@@ -91,12 +102,16 @@ hr {
 
 	.item{
 	margin-top: -20%;
-}
+	}
 
 	#myCarousel{
 	margin-top: 3%;
 	height: 75%
-}
+	}
+
+	#map{
+		height: 80%;
+	}
 
 }
 
@@ -111,7 +126,6 @@ hr {
 
 	}
 
-
 	.perigrafi{
 		/*border: 3px dotted green;*/
 		margin: 0 3%;
@@ -122,31 +136,48 @@ hr {
 	.test1 > li {
   	  display: table-cell; 
   	  width: 1%;
-	}
-	
-	.test1 > li > a {
-		max-height: 27px;
-		padding-top: 3px;
-	}
+  	  }
+
+  	.test1 > li > a{
+  		max-height: 10px;
+  		line-height: 4px;
+  	}
 
 	#myCarousel{
 		margin-top: 3%
 		height: 100%
 	}
+
+	#map{
+		height: 100%;
+	}
 } 
 /*Media Finish*/
+
+
+
+
 
 
 /*carousel css*/
 
 #myCarousel .nav a {
     display: block;
+    color: rgb(250,250,250);
+}
+#myCarousel .nav a:hover{
+	color: rgb(10,10,10);
 }
 
 .nav-justified > li > a {
-	background: rgb(230,230,230);
+	background: #444/*rgb(230,230,230)*/;
     border-radius: 0px;
 }
+
+.nav-justified > li > a:hover{
+	background: #888;
+}
+
 .nav-pills>li[data-slide-to="0"].active a { background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0)); }
 .nav-pills>li[data-slide-to="1"].active a { background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0)); }
 .nav-pills>li[data-slide-to="2"].active a { background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0)); }
@@ -157,17 +188,14 @@ hr {
 }
 
 
-/*Carousel MyCode*/
+
+
+	/*Carousel MyCode*/
 
 .test1 {
 	position: absolute;
 	z-index: 2;
 }
-
-/* .nav-justified > li {
-    display: table-cell; 
-    width: 1%
-} */
 
 
 /*Tabs Borders*/
@@ -175,6 +203,7 @@ hr {
 	border-right: 1px solid rgba(0,0,0,0.3);
 	border-left: 1px solid rgba(0,0,0,0.3);
 	border-top: 1px solid rgba(0,0,0,0.1);
+	
 }
 
 a.firstTab{
@@ -201,9 +230,43 @@ a.lastTab{
 
 
 
+/*Map Start*/
+#map{
+	position: relative;
+	overflow: hidden;
+	width:100%;
+	margin-top: 1.5%;
+	
+}
+
+#map iframe{
+	width: 100%;
+	height: 100%;
+
+}
+
+.scrolloff {
+        pointer-events: none;
+    }
+
+#canvas1{
+	height: 100%;
+	width: 100%;
+}
+
+/*Map Finish*/
 
 
+/*map Java
+.map-title{
+	margin-top: 1.5%;
+}
 
+
+#map {
+        height: 75%;
+      }
+*/
 
 
 
